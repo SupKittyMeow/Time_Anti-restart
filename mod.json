@@ -1,5 +1,5 @@
 {
-	"geode": "4.2.0",
+    "geode": "2.0.0-beta.20",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -10,13 +10,13 @@
 	"name": "Time Anti-restart",
 	"version": "v1.0.0",
 	"developer": "SupKittyMeow",
-	"description": "Turns off the Geometry Dash setting for auto-restart if the time is set past a given date",
+	"description": "Turns off auto-restart after a set time",
 	"settings": {
 		"time_hours": {
 			"type": "int",
 			"name": "Hours",
 			"description": "Make sure your time is in 24 hour format",
-			"default": 8,
+			"default": 20,
 			"min": 1,
 			"max": 24,
 			"controls": {
