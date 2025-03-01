@@ -5,9 +5,10 @@
 	},
 	"id": "supkittymeow.time_anti-restart",
 	"name": "Time Anti-restart",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "SupKittyMeow",
 	"description": "Turns off auto-restart after a set time",
+	"tags": ["utility", "offline"],
 	"settings": {
 		"time_hours": {
 			"type": "int",
