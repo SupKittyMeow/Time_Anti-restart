@@ -18,24 +18,14 @@
 			"description": "Make sure your time is in 24 hour format",
 			"default": 20,
 			"min": 1,
-			"max": 24,
-			"controls": {
-                "arrows": true,
-				"arrow-step": 1,
-				"slider": false
-            }
+			"max": 24
 		},
 		"time_mins": {
 			"type": "int",
 			"name": "Minutes",
 			"default": 0,
 			"min": 0,
-			"max": 60,
-			"controls": {
-                "arrows": true,
-				"arrow-step": 5,
-				"slider": false
-            }
+			"max": 60
 		}
 	}
 }
